@@ -1,0 +1,5 @@
+ul li::marker {
+    content: "#";
+    color: rgb(197, 137, 221);
+    font-size: 30px;
+}
