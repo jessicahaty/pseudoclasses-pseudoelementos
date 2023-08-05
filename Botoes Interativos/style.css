@@ -1,0 +1,29 @@
+body {
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    gap: 50px;
+}
+
+
+button {
+    height: 30px;
+    border: 2px solid black;
+    
+}
+
+.botao-1:hover {
+    background-color: rgba(4, 0, 255, 0.185);
+}
+
+.botao-2:active {
+    background-color: rgba(255, 0, 0, 0.205);
+}
