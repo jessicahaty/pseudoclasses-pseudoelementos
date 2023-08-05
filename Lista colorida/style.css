@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+ol {
+    counter-reset: item; 
+}
+
+ol li::before {
+    content: counter(item); 
+    counter-increment: item; 
+    margin-right: 10px; 
+}
+
+ol li:nth-child(even){
+    background-color: rgb(115, 115, 209);
+}
+
+ol li:nth-child(odd){
+    background-color: rgb(243, 141, 141);
+}
