@@ -1,0 +1,29 @@
+h1::before {
+    content: "";
+    display: inline-block;
+    background-image: url("img/atencao.png");
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 110px;
+
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.397);
+    
+}
+
+
